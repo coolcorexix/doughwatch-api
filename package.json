@@ -4,7 +4,8 @@
   "description": "Server for doughwatch to handle computing-intensive, os-env operation",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esno src/index.ts"
   },
   "author": "nemo",
   "license": "ISC",
@@ -20,5 +21,8 @@
     "jimp": "^0.16.1",
     "multer": "^1.4.5-lts.1",
     "tesseract.js": "^2.1.5"
+  },
+  "devDependencies": {
+    "esno": "^0.16.3"
   }
 }
